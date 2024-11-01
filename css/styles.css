@@ -1,1 +1,43 @@
- 
+ .succes{ 
+    background-color:  yellow;
+    font-size: 28px ;
+    color: rgb(3, 122, 23);
+
+ }
+
+ .loss{ 
+    background-color: red;
+    font-size: 28px;
+    color: azure;
+ }
+
+ .wrapper{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid black ;
+    border-image: linear-gradient(to right, #f0b916 0%, #d55c3a 100%) 1
+ }
+
+ .title{ 
+    font-size: 56px ;
+   
+ }
+
+ .subTitle{
+    color: chocolate;
+    font-size: 30px;
+ }
+
+
+ .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .input{
+    font-size: 30px;
+ }
